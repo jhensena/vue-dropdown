@@ -33,7 +33,10 @@
 
 <script>
 import BaseDropdown from '@/components/Dropdown';
+import { filterByHide, sortByOrder } from '@/helper/array_helper.js';
 import dropdownData from '../data.json';
+
+console.log('filterByHide, sortByOrder:', filterByHide(), sortByOrder());
 
 export default {
   name: "Main-page",
